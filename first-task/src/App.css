@@ -1,0 +1,69 @@
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: blue;
+}
+.List ul{
+  display: flex;
+  gap: 400px;
+  margin: 30px;
+}
+.List ul li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Link {
+  color: aqua;
+  text-decoration: none;
+  
+}
+.Link:hover {
+  color: black;
+  text-decoration:underline;
+  transition: 0.3s ease-in-out;
+  transform: translateX(10px);
+}
+.List-added{
+  list-style: none;
+  font-weight: bold;
+
+}
+.List-added li{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  gap: 15px;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  background-color: rgb(116, 89, 141);
+  color: aqua;
+  border-radius: 10px;
+}
+
+.button{
+  border-radius: 13px ;
+  background-color: bisque;
+  margin: 10px;
+}
+
+.button:hover{
+  border-radius: 13px ;
+  border-color: white ;
+}
+.componentofList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: blue;
+  gap: 20px;
+}
